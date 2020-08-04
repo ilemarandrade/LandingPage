@@ -1,0 +1,656 @@
+* {
+  box-sizing: border-box;
+  font-family: Letra1;
+  text-decoration: none;
+}
+body {
+  margin: 0px;
+}
+#menu {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(0deg, rgb(0, 153, 209), rgb(0, 184, 255));
+  position: fixed;
+  text-align: center;
+  display: flex;
+  padding: 10vh 20vw 0 20vw;
+  z-index: 100;
+}
+#menu h1 {
+  color: white;
+}
+#menu p {
+  color: black;
+}
+#menu .halfOfTheContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#containerOne {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 10vh;
+}
+.flex {
+  display: flex;
+}
+#containerTwo {
+  position: relative;
+  position: fixed;
+  z-index: 100;
+  background: #1e88e5;
+  height: 100vh;
+  width: 10vh;
+}
+#logoN {
+  position: absolute;
+  left: 15px;
+  top: 2vh;
+  width: 6vh;
+}
+#menuIcon {
+  position: absolute;
+  left: 15px;
+  top: 48vh;
+  width: 6vh;
+}
+#menuIcon p {
+  margin: 0px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+#nets {
+  position: absolute;
+  left: 15px;
+  bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+#nets svg {
+  width: 60%;
+}
+
+#firstContainer {
+  background: linear-gradient(
+      0deg,
+      rgba(82, 136, 154, 0.46),
+      rgba(82, 223, 250, 0.6)
+    ),
+    url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/tCt4-7344.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+#logo {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  height: 5%;
+  width: 5%;
+}
+
+#logoName {
+  position: absolute;
+  left: 10%;
+  top: 11%;
+}
+#logoName p {
+  font-family: logo;
+  font-size: 60px;
+}
+
+#imglogo {
+  background: url(imagenes/svg/logo.svg);
+}
+#text {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+#secondContainer {
+  background: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/b1KW-627941-PO1NUD-400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+#statistics1 {
+  margin-left: 3%;
+}
+
+#statistics2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#statistics2 p {
+  font-size: 70px;
+  margin: 0px;
+}
+#statistics2 h3 {
+  color: #90278e;
+}
+
+#journeys {
+  background: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/4XHa-10921.jpg");
+  background-size: cover;
+  padding: 10%;
+}
+.perfectCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+.textCentered {
+  text-align: center;
+}
+#innovation {
+  padding: 5% 15% 5% 15%;
+}
+#innovation2 {
+  display: flex;
+  justify-content: space-around;
+}
+#innovacion2 h2 {
+  font-size: 20px;
+}
+.svgSize {
+  width: 100px;
+}
+#aboutUs {
+  background: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/b1KW-627941-PO1NUD-400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#whatWeDo {
+  background: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/b1KW-627941-PO1NUD-400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#imgAboutUs {
+  background: linear-gradient(
+      0deg,
+      rgba(82, 136, 154, 0.46),
+      rgba(15, 132, 154, 0.6)
+    ),
+    url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/lNSk-825.jpg");
+  background-size: cover;
+  height: 35vh;
+  width: 100%;
+  color: white;
+  margin-bottom: 5vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+#aboutUs > div {
+  padding: 0 5%;
+}
+#vision {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#whatWeDo {
+  padding-bottom: 10vh;
+}
+#aboutUs {
+  padding-bottom: 10vh;
+}
+#imgWhatWeDo {
+  background: linear-gradient(
+      0deg,
+      rgba(82, 136, 154, 0.46),
+      rgba(15, 132, 154, 0.6)
+    ),
+    url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/xIDJ-2397.jpg");
+  background-size: cover;
+  height: 35vh;
+  width: 100%;
+  color: white;
+  margin-bottom: 5vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+#whatWeDo > div {
+  padding: 0 5%;
+}
+.halfOfTheContainer {
+  width: 50%;
+}
+#img1WHatweDo {
+  justify-content: space-around;
+  background: url(https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/CopD-12099.jpg);
+  background-size: 65% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+}
+#onlyImg {
+  background: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/bwfQ-10922.png");
+  background-size: cover;
+  height: 25vh;
+}
+
+#blog {
+  background: #efefef;
+  padding: 5% 0 10% 0;
+}
+#articles {
+  display: flex;
+  justify-content: space-around;
+}
+.article {
+  position: relative;
+  background: white;
+  width: 300px;
+  height: 310px;
+}
+#date {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-size: 14px;
+  margin: auto;
+}
+.titulocontenedor1 {
+  font-size: 10vh;
+  margin: 0%;
+}
+
+.grayLetter {
+  font-size: 15px;
+  color: #999999;
+}
+.textLetter {
+  font-family: Letra2;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.marginb {
+  margin-bottom: 5%;
+}
+.arrowNews {
+  position: absolute;
+  bottom: 0%;
+  right: 2%;
+  width: 20px;
+}
+.arrowEmail {
+  position: absolute;
+  right: 10%;
+  bottom: 0%;
+  width: 20px;
+}
+#footer {
+  background: linear-gradient(
+      0deg,
+      rgba(82, 136, 154, 0.46),
+      rgba(15, 132, 154, 0.6)
+    ),
+    url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/BC5g-8478.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#footer1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#logoContainerF {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#logof {
+  width: 60px;
+}
+
+#logoContainerF p {
+  font-family: Logo;
+  font-size: 60px;
+  color: black;
+  margin: 0px;
+}
+#linav {
+  width: 33%;
+  padding: 0 10%;
+}
+#linav div {
+  margin: 15% 0;
+}
+#linav a {
+  color: white;
+  font-size: 25px;
+}
+#email {
+  width: 33%;
+  color: white;
+}
+#inputEmail {
+  position: relative;
+}
+#direction {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  padding: 5% 0;
+}
+hr {
+  width: 100%;
+}
+input {
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  width: 90%;
+}
+@font-face {
+  font-family: Letra1;
+  src: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/6x4h-NunitoSans-Black.ttf");
+  color: white;
+}
+
+@font-face {
+  font-family: Letra2;
+  src: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/wVDE-NunitoSans-BlackItalic.ttf");
+  color: white;
+}
+@font-face {
+  font-family: logo;
+  src: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/p4Gg-kecappersonaluse.otf");
+  color: white;
+}
+@media only screen and (max-width: 850px) {
+  #firstContainer {
+    background: linear-gradient(
+        0deg,
+        rgba(82, 136, 154, 0.46),
+        rgba(82, 223, 250, 0.6)
+      ),
+      url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/Ry2y-73442.jpg");
+  }
+  #logoName {
+    position: absolute;
+    left: 3%;
+    top: 8%;
+  }
+  #text {
+    position: absolute;
+    bottom: 10%;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  #botoncajap {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+  }
+  #statistics2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #innovation2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #article {
+    margin: 2%;
+  }
+  #articles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  input {
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #menu {
+    flex-direction: column;
+  }
+  #menu h1 {
+    font-size: 5vh;
+  }
+  #containerOne {
+    flex-direction: column;
+    width: 100vw;
+    margin-left: 0px;
+    margin-top: 10vh;
+    text-align: center;
+  }
+  #containerTwo {
+    position: relative;
+    position: fixed;
+    top: 0vh;
+    z-index: 100;
+    background: #1e88e5;
+    height: 12vh;
+    width: 100vw;
+  }
+
+  #logoN {
+    position: absolute;
+    left: 10vw;
+    top: 2vh;
+    width: 8vh;
+  }
+  #menuIcon {
+    position: absolute;
+    left: auto;
+    right: 10vw;
+    top: 2vh;
+  }
+  #menuIcon p {
+    margin: 0px;
+    font-size: 10px;
+    color: white;
+  }
+  #nets {
+    display: none;
+  }
+  #firstContainer {
+    background: linear-gradient(
+        0deg,
+        rgba(82, 136, 154, 0.46),
+        rgba(82, 223, 250, 0.6)
+      ),
+      url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/3E8W-7344.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: static;
+    padding: 12%;
+  }
+  #logo {
+    display: none;
+  }
+
+  #logoName {
+    display: none;
+  }
+  #vision {
+    display: flex;
+    flex-direction: column;
+  }
+  .halfOfTheContainer {
+    width: 100%;
+  }
+
+  #text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    position: static;
+  }
+  #botoncajap {
+    display: flex;
+    justify-content: center;
+  }
+
+  #statistics {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #statistics1 {
+    margin-left: 0%;
+  }
+
+  #statistics2 {
+    flex-direction: column;
+  }
+  #statistics2 p {
+    font-size: 70px;
+    margin: 0px;
+  }
+  #statistics h3 {
+    color: #90278e;
+  }
+
+  #journeys {
+    display: flex;
+    flex-direction: column;
+    background: url("https://uploads.codesandbox.io/uploads/user/f6e86d6a-b63b-4a3b-8c9e-0ce0fd7b9504/R_TI-10921.png");
+  }
+  #innovation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #innovation2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #innovation2 h2 {
+    font-size: 20px;
+  }
+
+  #articles {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #article {
+    position: relative;
+    background: white;
+    width: 250px;
+    height: 260px;
+    margin-top: 10%;
+  }
+  #article img {
+    width: 100%;
+  }
+  #imgWhatWeDo {
+    align-items: center;
+    justify-content: center;
+  }
+  #imgAboutUs {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulocontenedor1 {
+    font-size: 6vh;
+    margin: 0%;
+  }
+
+  .grayLetter {
+    font-size: 15px;
+    color: #999999;
+  }
+  .textLetter {
+    font-family: Letra2;
+    color: black;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+  }
+  #footer {
+    padding-top: 10%;
+  }
+  #footer1 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #logoContainerF {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logof {
+    width: 60px;
+  }
+  #logoNameF p {
+    font-family: Logo;
+
+    font-size: 60px;
+    color: black;
+  }
+  #linav {
+    color: white;
+
+    width: 100%;
+  }
+  #linav a {
+    font-size: 20px;
+  }
+
+  #email {
+    width: 100%;
+    padding: 0 1%;
+  }
+  #direction {
+    height: 40%;
+    padding: 0 10%;
+  }
+  .arrowEmail {
+    position: absolute;
+    right: 20%;
+    bottom: 0%;
+    width: 20px;
+  }
+  input {
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 60%;
+  }
+}
